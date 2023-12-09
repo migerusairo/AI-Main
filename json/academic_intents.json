@@ -1,0 +1,123 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": [""]
+        },
+        {"tag": "crucial",
+         "patterns": ["I want to kill somebody", "suicide", "depression", "die"],
+         "responses": ["This is a crucial topic! please contact TCU counseling office for the guidance dial #8635-8300"],
+         "context": [""]
+        },
+       {"tag": "broken1",
+         "patterns": ["doesn`t love me","didn’t love me","didn`t have feelings for me.","didn`t feel love for me.","didn`t love me."],
+         "responses": ["I understand. It is very painful to learn that a partner no longer loves you. It is important to allow yourself time to grieve and to process your emotions. There is no right or wrong way to feel, and it is normal to experience a range of emotions, such as sadness, anger, confusion, and loneliness."],
+         "context": [""]
+        },
+       {"tag": "broken2",
+         "patterns": ["doesn`t care about me", "doesn`t show concern for me", "indifferent to me"],
+         "responses": ["It is very difficult to be in a relationship with someone who doesn`t care about you. You may feel lonely,unloved, and unsupported. It is important to remember that you deserve to be with someone who cares about you and makes you feel loved and valued."],
+         "context": [""]
+        },
+      {"tag": "broken3",
+         "patterns": ["broke up", "break up", "after the break up,", "ended the relationship", "following our break up"],
+         "responses": ["I understand. I am sorry to hear that you broke up with your partner. It is important to remember that you are not alone. Millions of people go through breakups every year. It is a normal and natural part of life.Breakups can be very difficult, but they can also be an opportunity for growth and self-discovery. As you\nheal from this breakup, focus on taking care of yourself and learning from your experiences."],
+         "context": [""]
+        },
+      {"tag": "broken4",
+         "patterns": ["handle break up,", "manage break up"],
+         "responses": ["Yes, I believe you are capable of handling this breakup. You have already shown strength and resilience\nby acknowledging your feelings and by reaching out for support. This is a positive sign that you are ready\nto heal and move on."],
+         "context": [""]
+        },
+      {"tag": "broken5",
+         "patterns": ["I want to kill somebody", "suicide", "depression", "die"],
+         "responses": ["This is a crucial topic! please contact TCU counseling office for the guidance dial #8635-8300"],
+         "context": [""]
+        },
+      {"tag": "broken6",
+         "patterns": ["Cheated", "Cheat", "Cheating"],
+         "responses": ["I am so sorry to hear that you experienced to get cheated on. This is a very painful betrayal, and it is normal to\nfeel a range of emotions, such as anger, sadness, confusion, and betrayal."],
+         "context": [""]
+      },
+      {"tag": "broken7",
+         "patterns": ["She Cheated", "He Cheated", "got cheated on"],
+         "responses": ["Don&#39;t try to bottle them up or pretend that you`re not\nhurting. It&#39;s important to acknowledge your feelings and to allow yourself to grieve."],
+         "context": [""]
+      },
+      {"tag": "broken8",
+         "patterns": ["She`s cheating", "He`s cheating"],
+         "responses": ["If you have been cheated on, it is important to remember that you are not alone. Cheating is a reflection\nof the cheater, not of you. You deserve to be with someone who loves and respects you."],
+         "context": [""]
+      },
+      {"tag": "broken9",
+         "patterns": ["Why did my partner cheat", "Why is my partner cheating"],
+         "responses": ["People's motivations for cheating can vary widely, and understanding the specific reasons behind your partner's actions would require open communication between you two."],
+         "context": [""]
+      },
+      {"tag": "broken10",
+         "patterns": ["having an affair", "affair", "betrayed"],
+         "responses": ["Before confronting your partner, you may want to gather any evidence you have of the infidelity. This can include messages, photos, or other proof that might help in the conversation."],
+         "context": [""]
+      },
+      {"tag": "broken11",
+         "patterns": ["third party"],
+         "responses": ["Think about what you want for your future. Do you want to work through the issues with your partner, or is it time to end the relationship? Consider your own well-being and what will be best for you in the long run."],
+         "context": [""]
+      },
+      {"tag": "broken12",
+         "patterns": ["can`t fight for me"],
+         "responses": ["There are a few possible reasons why your partner may love you but not be willing to fight for you. One\npossibility is that they are afraid of commitment. They may not be ready to settle down or to take the\nnext step in the relationship. Another possibility is that they are insecure. They may not feel good\nenough for you or they may be afraid of being rejected. It is also possible that they are simply not happy\nin the relationship. They may have fallen out of love or they may have realized that you are not\ncompatible."],
+         "context": [""]
+      },
+      {"tag": "broken13",
+         "patterns": ["i`m not enough", "not enough"],
+         "responses": ["You are enough. I`m here to assist you with any questions or requests you may have. Whether it&#39;s\nseeking information, support, or just someone to talk to, I&#39;m here to help. Everyone has moments of\nself-doubt, but it&#39;s important to remember that you are valuable and worthy just as you are. If there&#39;s\nanything specific you&#39;d like to discuss or any way I can support you, please feel free to let me know."],
+         "context": [""]
+      },
+      {"tag": "broken14",
+         "patterns": ["left me"],
+         "responses": ["It&#39;s natural to feel hurt and confused when someone leaves, but it&#39;s important to remember that their\ndecision is not a reflection of your worth. People leave relationships for various reasons, often unrelated\nto the person they are leaving. It&#39;s essential to focus on self-care and surround yourself with supportive\npeople during this challenging time. Remember that you are valuable and worthy just as you are. If you\nneed support or guidance, don&#39;t hesitate to reach out to friends, family, or a professional for help. You\nare not alone, and you deserve understanding and compassion."],
+         "context": [""]
+      },
+      {"tag": "broken15",
+         "patterns": ["she / he left me"],
+         "responses": ["It&#39;s natural to feel hurt and confused when someone leaves, but it&#39;s important to remember that their\ndecision is not a reflection of your worth. People leave relationships for various reasons, often unrelated\nto the person they are leaving. It&#39;s essential to focus on self-care and surround yourself with supportive\npeople during this challenging time. Remember that you are valuable and worthy just as you are. If you\nneed support or guidance, don&#39;t hesitate to reach out to friends, family, or a professional for help. You\nare not alone, and you deserve understanding and compassion."],
+         "context": [""]
+      },
+      {"tag": "broken16",
+         "patterns": ["he/ she hurt me", "emotionally hurt"],
+         "responses": ["I&#39;m sorry to hear that you&#39;re going through a difficult time. It&#39;s important to remember that I&#39;m just a\ncomputer program and not equipped to provide personal advice or counselling. However, if you&#39;re\ndealing with a situation where someone is hurting you, whether it&#39;s emotionally or physically, it&#39;s crucial\nto prioritize your well-being."],
+         "context": [""]
+      },
+      {"tag": "broken17",
+         "patterns": ["hurting me", "emotionally hurting"],
+         "responses": ["Understanding why someone may be causing you harm can be complex and may involve various factors\nsuch as their own struggles, communication issues, or personal issues. It&#39;s essential to prioritize your\nsafety and seek support from friends, family, or professionals who can help you navigate the situation."],
+         "context": [""]
+      },
+      {"tag": "broken18",
+         "patterns": ["replaced me", "replace me"],
+         "responses": ["Acceptance is a crucial part of the healing process. Understand that you cannot control the actions of your ex-partner, but you can control your own reactions and choices moving forward."],
+         "context": [""]
+      },
+      {"tag": "broken19",
+         "patterns": ["doesn`t want me anymore", "doesn't love me anymore"],
+         "responses": ["now. It's tough when someone you love doesn't love you back anymore. There are many reasons why someone might not feel the same way about you, and it&#39;s\nimportant to remember that it&#39;s not always your fault."],
+         "context": [""]
+      },
+      {"tag": "broken20",
+         "patterns": ["feel replaceable"],
+         "responses": ["Everyone is unique and valuable in their own way, and that includes you. No one can ever replace you.\nYou have your own special talents, skills, and qualities that make you special.However, it&#39;s understandable to feel like you might be replaceable, especially if you&#39;re going through a\ntough time or feeling insecure. But remember, your worth is not determined by others. You are worthy\nof love and respect, just as you are."],
+         "context": [""]
+      }
+    ]
+ }
